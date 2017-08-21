@@ -1,0 +1,297 @@
+*{margin:0;padding: 0;}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Bold.ttf') format('ttf'),
+         url('Montserrat-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body 
+{
+	
+	font-family: 'Montserrat', Arial;
+	width: 100%;
+}
+a  
+{
+	text-decoration:none;
+	border:none;
+	color:#fff;
+	cursor: pointer;
+}
+img 
+{
+	text-decoration:none;
+	border:none;
+}
+body{background-color: #171717;}
+.main{
+text-align: center;
+
+}
+
+.content{
+	padding-top: 200px;
+text-align: center;
+}
+a .button{text-align: center;overflow: hidden;clear: both;}
+.write{padding-top: 25px;padding-bottom: 65px;}
+.write p{color: #ffffff;font-size: 16px;padding-top: 5px;font-weight: bold;}
+.button{height: 44px;width: 250px;border-radius: 30px;font-size: 13px;font-weight: bold;
+    margin-left:auto;margin-right:auto;display:block;border:none;color: #ffffff;
+    background: #9B45FF; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left, #9B45FF , #FF5D9B); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #9B45FF, #FF5D9B); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #9B45FF, #FF5D9B); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #9B45FF , #FF5D9B); /* Standard syntax (must be last) */
+}
+a .submit{float: left;overflow: hidden;clear: both;font-size: 17px;font-weight: bold;margin-left: 20px;margin-top: 10px;}
+.submit{height: 35px;width: 160px;border-radius: 30px;font-weight: bold;
+    margin-left:auto;margin-right:auto;display:none;border:2px solid Deeppink;color: #ffffff;padding-top: 15px;}
+p{color: #ffffff;}
+.hello p{color: #ffffff;}
+.button p{padding-top: 13px;}
+.footer{font-size: 11px;bottom: 0;position: fixed;color: #646464;left: 23%;padding-bottom: 10px;}
+.footer p{color: #646464;}
+.top-logo{margin-top: 45px;}
+.input-num{color: #ffffff;font-size: 16px;margin-top: 35px;font-weight: bold;}
+.input-num p{margin-top: 30px;margin-bottom: 10px;}
+.input-num .textfield {padding: 10px;font-size: 14px;background: none;height: 40px;
+color: #ffffff;border: none;margin-top: 25px;text-align: center;font-weight: bold;
+border-bottom: 1px solid #646464;width: 250px;
+}
+.resend-otp{margin-top: 23px;padding-bottom: 20px;border-bottom: 1px solid #646464;margin-left: 50px!important;margin-right: 50px!important;}
+.resend-otp a{font-size: 15px;font-weight: bold;color:  #A347F7;
+}
+.form{text-align: center;font-weight: bold;font-size: 13px;}
+.input-class{height: 32px!important;width: 32px!important;border-radius: 40px!important;border:0px solid #640058!important;
+display: inline-block!important; background: #9B45FF; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left, #9B45FF , #FF5D9B); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #9B45FF, #FF5D9B); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #9B45FF, #FF5D9B); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #9B45FF , #FF5D9B); /* Standard syntax (must be last) */
+    margin-bottom: 13px;text-align: center;color: #ffffff;opacity: 0.5;
+margin-left: 5px!important;margin-right: 5px!important;margin-top: 20px!important;}
+.input-class:focus, .input-class:visited{  background: #9B45FF; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left, #9B45FF , #FF5D9B); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #9B45FF, #FF5D9B); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #9B45FF, #FF5D9B); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #9B45FF , #FF5D9B); /* Standard syntax (must be last) */
+    opacity: 0.5;}
+.top-div{width: 100%;text-align: center;overflow: hidden;clear: both;padding-top: 15px;
+ background: purple; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left, #9B45FF , #FF5D9B); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #9B45FF, #FF5D9B); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #9B45FF, #FF5D9B); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #9B45FF , #FF5D9B); /* Standard syntax (must be last) */
+}
+.subscribe{height: 30px;width: 210px;border-radius: 30px;font-size: 15px;font-weight: bold;
+    margin-left:auto;margin-right:auto;display:block;border:2px solid #FF1493;color: #ffffff;padding-top: 15px;text-align: center;}
+.top-left{float: left;margin-left: 20px;padding-bottom: 15px;}
+.top-right{float: right;padding-bottom: 15px;margin-right: 20px;}
+.welcome{margin-top: 20px;text-align: center;font-size: 14px;font-weight: bold;}
+.middle-img{margin-top: 25px;margin-bottom: 30px;}
+.foot{text-align: center;padding-left: 20px;padding-right: 20px;font-weight: bold;font-size: 14px;}
+.foot p{display: inline-block;padding-bottom: 20px;padding-top: 20px;}
+.left-foot{float: left;}
+.fix-footer{bottom: 0;position: fixed;border-top: 0.5px solid #646464;width: 100%;}
+.right-foot{float: right;}
+.general-know{float: left;font-size: 14px;
+font-weight: bold;}
+.gen-top{padding-right: 20px;padding-top: 35px;padding-left: 20px;padding-bottom: 50px;border-bottom: 1px solid #646464;}
+.timer{
+  float: right;margin-top: -15px!important;font-weight: bold;font-size: 11px;
+}
+.timer-class{height: 32px!important;width: 32px!important;border-radius: 40px!important;border:2.5px solid Deeppink!important;
+background-color: Deeppink!important;text-align: center;color: #ffffff;margin-top: 4px;
+}
+.foot-score{padding-bottom: 10px;}
+.foot-score p{padding-top: 15px;padding-bottom: 15px;font-size: 16px;font-weight: bold;}
+.foot-score span{padding-bottom: 10px;color: #646464;font-weight: bold;font-size: 11px;}
+.ques{font-weight: bolder;font-size: 19px;padding-top: 8px;clear: both;float: left;}
+.question{padding-left: 20px;padding-right: 20px;margin-top: 15px;font-weight: bold;}
+.queno p{color: Deeppink;font-size: 14px;float: left;}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #646464;
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #646464;
+    font-weight: bolder;
+    font-size: 13px;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #646464;
+    font-weight: bolder;
+    font-size: 13px;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #646464;
+    font-weight: bolder;
+    font-size: 13px;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #646464;
+    font-weight: bolder;
+    font-size: 13px;
+}
+.element::-webkit-input-placeholder {
+    color: #646464;
+    font-weight: bolder;
+}
+
+.radio-but{font-weight: bold;color: #ffffff;clear: both;float: left;
+overflow: hidden;
+font-size: 16px;
+padding-top: 20px;}
+
+input[type='radio']{
+font-size: 18px;
+ margin-right: 20px;
+ margin-top: 17px;
+ margin-bottom: 17px;
+ margin-left: 1px;
+}
+.radio-but p{float: left;}
+
+input[type='radio']:after {
+         width: 17px;
+        height: 17px;
+        border-radius: 17px;
+        top: -2px;
+        left: 0px;
+        position: relative;
+        background-color: #171717;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid Deeppink;
+        
+    }
+
+    input[type='radio']:checked:after {
+    	 width: 17px;
+        height: 17px;
+        border-radius: 17px;
+        top: -2px;
+        left: 0px;
+        position: relative;
+        background-color: Deeppink;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid Deeppink;
+        
+    }
+    
+.congratz{font-size: 29px;font-weight: bolder;color: #ffffff;margin-top: 70px;margin-bottom: 50px;}    
+ .congratz span{font-size: 14px;}   
+.congratz p{margin-bottom: 15px;}
+.foot-text p{padding-top: 15px;padding-bottom: 15px;font-size: 14px;font-weight: bold;}
+.foot-text span{padding-bottom: 10px;color: #646464;font-weight: bold;font-size: 11px;}
+.foot-text{padding-bottom: 10px;}
+.right-logo img{overflow: hidden;clear: both;padding-top: 45px;float: left;padding-left: 8px;padding-bottom: 30px;}
+.correct-text p span{overflow: hidden;clear: both;color: #ffffff;font-size: 19px;float: left;font-weight: bolder;padding-right: 5px;}
+.small{font-size: 14px;overflow: hidden;clear: both;float: left;}
+.big{font-size: 16px;overflow: hidden;clear: both;float: left;}
+.correct-text p{padding-bottom: 5px;}
+a .next-button{float: left;overflow: hidden;clear: both;margin-top: 25px;
+font-size: 17px;font-weight: bold;margin-left: 20px;}
+.next-button{height: 35px;width: 160px;border-radius: 30px;font-weight: bold;
+    margin-left:auto;margin-right:auto;display:block;border:2px solid Deeppink;color: #ffffff;padding-top: 15px;}
+.english-button:focus{border:2px solid Deeppink;}
+.english-button{height: 32px;width: 140px;border-radius: 30px;font-weight: bold;
+overflow: hidden;clear: both;margin-top: 20px;margin-bottom: 30px;
+font-size: 17px;font-weight: bold;border: 2px solid Deeppink;
+    margin-left:auto;margin-right:auto;display:block;color: #ffffff;padding-top: 15px;}
+
+.hindi-button{margin-bottom: 80px;margin-top: 30px;height: 32px;width: 140px;border-radius: 30px;font-weight: bold;
+overflow: hidden;clear: both;font-size: 17px;font-weight: bold;margin-left:auto;margin-right:auto;display:block;color: #ffffff;padding-top: 15px;}
+.choose{margin-top: 40px;margin-bottom: 70px;}
+.line{
+    display: block;
+    width: 30px;
+    height: 1px;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #646464;
+}
+.laguage-content{margin-left: 20px;margin-right: 20px;border-bottom: 1px solid #646464;}
+.select-language{margin-top: 25px;margin-bottom: 15px;color: #ffffff;font-size: 15px;font-weight: bold;
+overflow: hidden;}
+
+.left-select{float: left;padding-top: 5px;overflow: hidden;text-align: left;}
+.change-color{color: #646464;clear: both;overflow: hidden;padding-top: 5px;font-size: 14px;}
+
+.right-select{overflow: hidden;float: right;margin-top: 15px;}
+.right-select span{margin-left: 10px;}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 96px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    bottom: 0;
+    position: fixed;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.6); /* Black w/ opacity */ */
+}
+/* Modal Content */
+.modal-content {
+	padding-bottom: 7px;
+	padding-left: 5px;
+	padding-top: 7px;
+    margin: auto;
+    float: right;
+margin-right: 20px;
+margin-top: 40px;
+    border: 1px solid #ffffff;
+    width: 30%;
+    background-color: #ffffff;
+  }
+a{text-decoration: none;}
+
+/* The Close Button */
+.close {
+overflow: hidden;
+clear: both;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 400px;
+    
+}
+.modal-content p{font-size: 14px;
+font-weight: bold;
+text-decoration: none;
+padding-top: 5px;
+padding-bottom: 5px;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 15px;
+text-align: left;
+color: black;
+margin: 10px;
+}
+
+.close:hover,
+.close:focus {
+    
+    cursor: pointer;
+}
+select::-ms-expand {
+    display: none;
+}
